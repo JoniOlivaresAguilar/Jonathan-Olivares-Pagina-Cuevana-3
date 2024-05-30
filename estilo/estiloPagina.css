@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgba(0, 0, 0, 0.859);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: mediumblue;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:double;
+}
+
+section {
+    margin: 40px;
+    padding: 40px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.TituloP {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: mediumblue;
+}
+.TituloS{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: mediumblue;
+}
+   
+.bienvenida{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: mediumblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.pelicula, .serie {
+    display: inline-block; /* Cambio para alinear horizontalmente */
+    margin-right: 57px; /* Espacio entre imágenes */
+}
+.buscador {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
+    
+}
+
+.buscador input[type="text"] {
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.buscador button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
